@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>project js placeholder</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        h1,h2,h3,h4{
+            margin: 5px;
+        }
+        #user{
+            background-color: white ;
+            width: 90%;
+            box-shadow: 0px 5px 10px black;
+            border-radius: 30px;
+            padding: 5px;
+            margin: 10px auto;
+            cursor: pointer;
+            
+        }
+        #post{
+            width: 90%;
+            padding: 5px;
+            margin: 10px auto;
+        }
+        div.selected{
+            border: 2px solid red;
+        }
+        body{
+            background: linear-gradient(45deg ,rgb(12, 12, 97) ,rgb(107, 4, 4));
+        }
+    </style>
+</head>
+<body>
+    <!-- MAIN CONTAINER-->
+    <div style="display: flex; ">
+        <!-- users container-->
+        <div id="users-container" style="width: 30%; ">
+            <!-- users-->
+            <div id="users" style=" width: 90%; margin: 0px auto; ">
+                <!-- user -->
+                <div id="user"  >
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+            
+                <!-- //user //-->
+            </div>
+            <!--// users //-->
+        </div>
+        <!-- //users container //-->
+
+        <!-- posts container-->
+        <div id="posts-container" style="width: 70%; ">
+            <div id="posts" style=" background-color: #e9edf0; margin: 0px auto; border-radius: 5px; ">
+                <!--post-->
+                <div id="post">
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+                <!--post-->
+        </div>
+        </div>
+        <!--// posts container //-->
+    </div>
+
+    <!-- // MAIN CONTAINER //-->
+
+    <script src="projectJsPlaceholder.js"></script>
+</body>
+</html>
